@@ -20,6 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':password', $hashed_password); // استخدام كلمة المرور المشفرة
     $stmt->bindParam(':role', $role);
+    
+    //error here 
     &$sql = ("INSERT INTO `user`(`id`, `name`, `email`, `password`, `phone`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')")
 
     // تنفيذ الاستعلام
