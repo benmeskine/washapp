@@ -2,4 +2,4 @@
 app for cars washing
 
 
-testin ..
+testing ..
